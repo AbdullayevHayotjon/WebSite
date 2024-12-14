@@ -84,11 +84,35 @@ header {
 
 .banner {
     display: flex;
-    justify-content: center;
-    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
     color: #ffff;
     margin-top: 9%;
+    padding: 2rem;
 }
+
+.banner .text {
+    flex: 1;
+}
+
+.banner .image {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.banner .image img {
+    width: 600px; /* Rasmning kengligi */
+    height: 600px; /* Rasmning balandligi */
+    border-radius: 50%; /* Aylana shakl berish */
+    border: 5px solid #fff; /* Rasmga oq chegarani qo'shish (ixtiyoriy) */
+    object-fit: cover; /* Rasmni konteynerga moslashtirish */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Soyani qo'shish (ixtiyoriy) */
+}
+
+
+
 
 .banner-title {
     font-size: 5rem;
