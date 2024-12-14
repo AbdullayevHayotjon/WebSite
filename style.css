@@ -103,8 +103,8 @@ header {
 }
 
 .banner .image img {
-    width: 600px; /* Rasmning kengligi */
-    height: 600px; /* Rasmning balandligi */
+    width: 500px; /* Rasmning kengligi */
+    height: 500px; /* Rasmning balandligi */
     border-radius: 50%; /* Aylana shakl berish */
     border: 5px solid #fff; /* Rasmga oq chegarani qo'shish (ixtiyoriy) */
     object-fit: cover; /* Rasmni konteynerga moslashtirish */
